@@ -93,7 +93,6 @@ function continueBtnEvent() {
         seats[i].classList.remove("selected");
       }
     }
-
     reset();
   });
 }
@@ -101,6 +100,7 @@ function continueBtnEvent() {
 continueBtnEvent();
 
 // Add eventListerner to Cancel Button
+
 function cancelBtnEvent() {
   cancelBtn.addEventListener("click", reset);
 }
